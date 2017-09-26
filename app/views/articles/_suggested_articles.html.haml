@@ -1,0 +1,10 @@
+- @articles.each do |article|
+  %ul.thumbnails.col-lg-4.col-md-6
+    %li.thumbnail.article-box
+      .caption
+        %h4
+          = article.title
+        %p
+          = truncate(article.text, length: 190, separator: ' ')
+        .text-right
+          = link_to 'Read more...', article.pretty_path, class: 'btn btn-primary btn-xs'

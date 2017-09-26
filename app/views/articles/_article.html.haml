@@ -1,0 +1,12 @@
+.article
+  %h2= @article.title
+  %em= "#{article_time(@article.created_at)},"
+  %em
+    by: author_name
+    -# author
+  ratings *****
+  %p= @article.text
+  tags
+  %h3 Comments
+  =# render 'shared/comments_count'
+  = render 'shared/fb_comments', url: root_url + @article.pretty_path

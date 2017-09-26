@@ -1,0 +1,19 @@
+!!!
+%html
+  %head
+    %meta{content: 'text/html; charset=UTF-8', 'http-equiv' => 'Content-Type'}
+    %meta{content: 'width=device-width, initial-scale=1', name: 'viewport'}
+    %link{rel: 'shortcut icon', href: '/favicon.ico', type: 'image/x-icon'}
+    %title Ant Url
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = stylesheet_link_tag    'vendor', media: 'all', 'data-turbolinks-track' => true, debug: false
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = javascript_include_tag 'vendor', 'data-turbolinks-track' => true, debug: false
+    = csrf_meta_tags
+  %body
+    = render 'shared/facebook_jssdk_script'
+    = render 'shared/header'
+    .container
+      .content
+        = yield
+    = render 'shared/footer'

@@ -1,0 +1,18 @@
+*.rbc
+/log/
+/tmp/
+/public/jobs/
+/public/uploads/
+/db/*.sqlite3
+/db/schema.rb
+/spec/tmp
+**.orig
+
+config/initializers/secret_token.rb
+config/database.yml
+
+## Environment normalisation:
+/.bundle
+/vendor/bundle
+
+.rvmrc

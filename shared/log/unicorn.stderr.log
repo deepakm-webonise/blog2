@@ -1,0 +1,90 @@
+I, [2017-08-31T18:38:44.832531 #20595]  INFO -- : Refreshing Gem list
+I, [2017-08-31T18:38:45.988242 #20595]  INFO -- : listening on addr=/home/webonise/sample/blog/shared/sockets/unicorn.sock fd=11
+I, [2017-08-31T18:38:45.988365 #20595]  INFO -- : worker=0 spawning...
+I, [2017-08-31T18:38:45.989690 #20595]  INFO -- : worker=1 spawning...
+I, [2017-08-31T18:38:45.990008 #20598]  INFO -- : worker=0 spawned pid=20598
+I, [2017-08-31T18:38:45.990112 #20598]  INFO -- : worker=0 ready
+I, [2017-08-31T18:38:45.991059 #20595]  INFO -- : master process ready
+I, [2017-08-31T18:38:45.991426 #20601]  INFO -- : worker=1 spawned pid=20601
+I, [2017-08-31T18:38:45.991544 #20601]  INFO -- : worker=1 ready
+I, [2017-08-31T19:19:07.017208 #20595]  INFO -- : reaped #<Process::Status: pid 20598 exit 0> worker=0
+I, [2017-08-31T19:19:07.017304 #20595]  INFO -- : reaped #<Process::Status: pid 20601 exit 0> worker=1
+I, [2017-08-31T19:19:07.017355 #20595]  INFO -- : master complete
+I, [2017-08-31T19:19:11.727892 #22591]  INFO -- : Refreshing Gem list
+I, [2017-08-31T19:19:12.844128 #22591]  INFO -- : unlinking existing socket=/home/webonise/sample/blog/shared/sockets/unicorn.sock
+I, [2017-08-31T19:19:12.844256 #22591]  INFO -- : listening on addr=/home/webonise/sample/blog/shared/sockets/unicorn.sock fd=11
+I, [2017-08-31T19:19:12.844359 #22591]  INFO -- : worker=0 spawning...
+I, [2017-08-31T19:19:12.845612 #22591]  INFO -- : worker=1 spawning...
+I, [2017-08-31T19:19:12.845984 #22595]  INFO -- : worker=0 spawned pid=22595
+I, [2017-08-31T19:19:12.846153 #22595]  INFO -- : worker=0 ready
+I, [2017-08-31T19:19:12.846976 #22591]  INFO -- : master process ready
+I, [2017-08-31T19:19:12.847332 #22598]  INFO -- : worker=1 spawned pid=22598
+I, [2017-08-31T19:19:12.847485 #22598]  INFO -- : worker=1 ready
+I, [2017-08-31T19:24:12.391376 #22591]  INFO -- : reaped #<Process::Status: pid 22595 exit 0> worker=0
+I, [2017-08-31T19:24:12.391469 #22591]  INFO -- : reaped #<Process::Status: pid 22598 exit 0> worker=1
+I, [2017-08-31T19:24:12.391517 #22591]  INFO -- : master complete
+I, [2017-08-31T19:24:16.193823 #24038]  INFO -- : Refreshing Gem list
+I, [2017-08-31T19:24:17.263828 #24038]  INFO -- : unlinking existing socket=/home/webonise/sample/blog/shared/sockets/unicorn.sock
+I, [2017-08-31T19:24:17.263972 #24038]  INFO -- : listening on addr=/home/webonise/sample/blog/shared/sockets/unicorn.sock fd=11
+I, [2017-08-31T19:24:17.264082 #24038]  INFO -- : worker=0 spawning...
+I, [2017-08-31T19:24:17.265345 #24038]  INFO -- : worker=1 spawning...
+I, [2017-08-31T19:24:17.265754 #24042]  INFO -- : worker=0 spawned pid=24042
+I, [2017-08-31T19:24:17.265879 #24042]  INFO -- : worker=0 ready
+I, [2017-08-31T19:24:17.266639 #24038]  INFO -- : master process ready
+I, [2017-08-31T19:24:17.267011 #24045]  INFO -- : worker=1 spawned pid=24045
+I, [2017-08-31T19:24:17.267152 #24045]  INFO -- : worker=1 ready
+I, [2017-08-31T19:39:17.708901 #24038]  INFO -- : reaped #<Process::Status: pid 24042 exit 0> worker=0
+I, [2017-08-31T19:39:17.708993 #24038]  INFO -- : reaped #<Process::Status: pid 24045 exit 0> worker=1
+I, [2017-08-31T19:39:17.709043 #24038]  INFO -- : master complete
+I, [2017-08-31T19:39:23.030447 #24734]  INFO -- : Refreshing Gem list
+I, [2017-08-31T19:39:24.138040 #24734]  INFO -- : unlinking existing socket=/home/webonise/sample/blog/shared/sockets/unicorn.sock
+I, [2017-08-31T19:39:24.138168 #24734]  INFO -- : listening on addr=/home/webonise/sample/blog/shared/sockets/unicorn.sock fd=11
+I, [2017-08-31T19:39:24.138245 #24734]  INFO -- : worker=0 spawning...
+I, [2017-08-31T19:39:24.139540 #24734]  INFO -- : worker=1 spawning...
+I, [2017-08-31T19:39:24.139898 #24738]  INFO -- : worker=0 spawned pid=24738
+I, [2017-08-31T19:39:24.140012 #24738]  INFO -- : worker=0 ready
+I, [2017-08-31T19:39:24.140886 #24734]  INFO -- : master process ready
+I, [2017-08-31T19:39:24.141272 #24741]  INFO -- : worker=1 spawned pid=24741
+I, [2017-08-31T19:39:24.141400 #24741]  INFO -- : worker=1 ready
+I, [2017-08-31T19:47:32.817429 #24734]  INFO -- : reaped #<Process::Status: pid 24738 exit 0> worker=0
+I, [2017-08-31T19:47:32.817545 #24734]  INFO -- : reaped #<Process::Status: pid 24741 exit 0> worker=1
+I, [2017-08-31T19:47:32.817621 #24734]  INFO -- : master complete
+I, [2017-08-31T19:49:06.341698 #25491]  INFO -- : Refreshing Gem list
+I, [2017-08-31T19:49:07.418315 #25491]  INFO -- : unlinking existing socket=/home/webonise/sample/blog/shared/sockets/unicorn.sock
+I, [2017-08-31T19:49:07.418451 #25491]  INFO -- : listening on addr=/home/webonise/sample/blog/shared/sockets/unicorn.sock fd=11
+I, [2017-08-31T19:49:07.418524 #25491]  INFO -- : worker=0 spawning...
+I, [2017-08-31T19:49:07.419880 #25491]  INFO -- : worker=1 spawning...
+I, [2017-08-31T19:49:07.420249 #25494]  INFO -- : worker=0 spawned pid=25494
+I, [2017-08-31T19:49:07.420346 #25494]  INFO -- : worker=0 ready
+I, [2017-08-31T19:49:07.421262 #25491]  INFO -- : master process ready
+I, [2017-08-31T19:49:07.421586 #25497]  INFO -- : worker=1 spawned pid=25497
+I, [2017-08-31T19:49:07.421677 #25497]  INFO -- : worker=1 ready
+I, [2017-08-31T19:54:52.868801 #25491]  INFO -- : reaped #<Process::Status: pid 25494 exit 0> worker=0
+I, [2017-08-31T19:54:52.868895 #25491]  INFO -- : reaped #<Process::Status: pid 25497 exit 0> worker=1
+I, [2017-08-31T19:54:52.868956 #25491]  INFO -- : master complete
+I, [2017-08-31T19:54:55.011085 #26009]  INFO -- : Refreshing Gem list
+I, [2017-08-31T19:54:56.098499 #26009]  INFO -- : unlinking existing socket=/home/webonise/sample/blog/shared/sockets/unicorn.sock
+I, [2017-08-31T19:54:56.098635 #26009]  INFO -- : listening on addr=/home/webonise/sample/blog/shared/sockets/unicorn.sock fd=11
+I, [2017-08-31T19:54:56.098716 #26009]  INFO -- : worker=0 spawning...
+I, [2017-08-31T19:54:56.100018 #26009]  INFO -- : worker=1 spawning...
+I, [2017-08-31T19:54:56.100417 #26012]  INFO -- : worker=0 spawned pid=26012
+I, [2017-08-31T19:54:56.100538 #26012]  INFO -- : worker=0 ready
+I, [2017-08-31T19:54:56.102108 #26009]  INFO -- : master process ready
+I, [2017-08-31T19:54:56.102499 #26015]  INFO -- : worker=1 spawned pid=26015
+I, [2017-08-31T19:54:56.102605 #26015]  INFO -- : worker=1 ready
+I, [2017-08-31T19:56:44.261704 #26009]  INFO -- : reaped #<Process::Status: pid 26012 exit 0> worker=0
+I, [2017-08-31T19:56:44.261796 #26009]  INFO -- : reaped #<Process::Status: pid 26015 exit 0> worker=1
+I, [2017-08-31T19:56:44.261856 #26009]  INFO -- : master complete
+I, [2017-08-31T19:56:47.014508 #26279]  INFO -- : Refreshing Gem list
+I, [2017-08-31T19:56:48.092154 #26279]  INFO -- : unlinking existing socket=/home/webonise/sample/blog/shared/sockets/unicorn.sock
+I, [2017-08-31T19:56:48.092294 #26279]  INFO -- : listening on addr=/home/webonise/sample/blog/shared/sockets/unicorn.sock fd=11
+I, [2017-08-31T19:56:48.092374 #26279]  INFO -- : worker=0 spawning...
+I, [2017-08-31T19:56:48.093689 #26279]  INFO -- : worker=1 spawning...
+I, [2017-08-31T19:56:48.094141 #26282]  INFO -- : worker=0 spawned pid=26282
+I, [2017-08-31T19:56:48.094247 #26282]  INFO -- : worker=0 ready
+I, [2017-08-31T19:56:48.095071 #26279]  INFO -- : master process ready
+I, [2017-08-31T19:56:48.097213 #26285]  INFO -- : worker=1 spawned pid=26285
+I, [2017-08-31T19:56:48.097330 #26285]  INFO -- : worker=1 ready
+I, [2017-08-31T20:36:37.544015 #26279]  INFO -- : reaped #<Process::Status: pid 26282 exit 0> worker=0
+I, [2017-08-31T20:36:37.544104 #26279]  INFO -- : reaped #<Process::Status: pid 26285 exit 0> worker=1
+I, [2017-08-31T20:36:37.544157 #26279]  INFO -- : master complete

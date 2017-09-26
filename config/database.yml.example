@@ -1,0 +1,21 @@
+default: &default
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  adapter: sqlite3
+  database: db/blog_development.sqlite3
+
+test:
+  <<: *default
+  adapter: sqlite3
+  database: db/blog_test.sqlite3
+
+production:
+  <<: *default
+  adapter: postgresql
+  host: localhost
+  database: blog_production
+  username: postgres
+  password: password

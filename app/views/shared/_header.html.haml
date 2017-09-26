@@ -1,0 +1,17 @@
+%nav.navbar.navbar-fixed-top.navbar-inverse{role: 'navigation'}
+  .container
+    .navbar-header
+      %button.navbar-toggle{'data-target' => '#navbarMenu', 'data-toggle' => 'collapse', type: 'button'}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand{href: root_url} Blog
+    #navbarMenu.collapse.navbar-collapse
+      %ul.nav.navbar-nav
+        %li.active
+          %a{href: root_url} Home
+        %li
+          %a{href: 'javascript:void(0)'} About us
+        %li
+          %a{href: 'javascript:void(0)'} How it works
