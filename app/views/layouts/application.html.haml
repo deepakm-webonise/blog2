@@ -4,16 +4,41 @@
     %meta{content: 'text/html; charset=UTF-8', 'http-equiv' => 'Content-Type'}
     %meta{content: 'width=device-width, initial-scale=1', name: 'viewport'}
     %link{rel: 'shortcut icon', href: '/favicon.ico', type: 'image/x-icon'}
-    %title Ant Url
+    %title Blog
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
     = stylesheet_link_tag    'vendor', media: 'all', 'data-turbolinks-track' => true, debug: false
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = javascript_include_tag 'vendor', 'data-turbolinks-track' => true, debug: false
     = csrf_meta_tags
+    %meta{content: "http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html", property: "og:url"}
+    %meta{content: "article", property: "og:type"}
+    %meta{content: "When Great Minds Don’t Think Alike", property: "og:title"}
+    %meta{content: "How much does culture influence creative thinking?", property: "og:description"}
+    %meta{content: "http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg", property: "og:image"}
+
   %body
+    :javascript
+      $(document).ready(function() {
+        $(document).on('click', '#feed', function(e) {
+          return FB.ui({
+            method: 'feed',
+            link: 'https://dummy-rails.herokuapp.com/',
+            source: 'https://assets-pre.nfhslearn.com/uploads/course/avatar/61028/VF9L6565.jpg',
+            caption: 'NFHS Learn'
+          });
+        });
+        return $(document).on('click', '#share', function(e) {
+          return FB.ui({
+            method: 'share',
+            href: 'https://dummy-rails.herokuapp.com/',
+            quote: 'something'
+          });
+        });
+      });
     = render 'shared/facebook_jssdk_script'
     = render 'shared/header'
     .container
       .content
+        = render 'shared/share_link'
         = yield
     = render 'shared/footer'
